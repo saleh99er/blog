@@ -6,6 +6,6 @@ https://nextcloud_subdomain.yourdomain.com:8443 { # EDIT
 	reverse_proxy localhost:8443
 }
 
-https://n8n_subdomain.yourdomain.com {
+https://n8n_subdomain.yourdomain.com { # EDIT
 	reverse_proxy localhost:5678
 }
